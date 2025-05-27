@@ -21,7 +21,7 @@ namespace CS01_Lesson_04_01_ConsApp
 
             int[] array2 = new int[] { 1, 3, 5, 7, 9 };
 
-            int[] array3 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int[] array3 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
             //
             // Вывод массива
@@ -43,6 +43,22 @@ namespace CS01_Lesson_04_01_ConsApp
                 Console.Write(array3[i] + " ");
             }
             Console.WriteLine();
+
+            //
+            // Объявление двумерного массива
+            //
+
+            int[,] multiDimensionalArray1 = new int[2, 3];
+            int[,] multiDimensionalArray2 = { { 1, 2, 3 }, { 4, 5, 6 } };
+
+            //
+            // Массив массивов
+            //
+            int[][] jaggedArray = new int[3][];
+            jaggedArray[0] = new int[4] { 1, 2, 3, 4 };
+            jaggedArray[1] = new int[5] { 1, 2, 3, 4, 5 };
+            jaggedArray[2] = new int[3] { 1, 2, 3 };
+
 
             Console.ReadLine();
 
