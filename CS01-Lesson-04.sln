@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS01-Lesson-04-04-ConsApp",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS01-Lesson-04-05-ConsApp", "CS01-Lesson-04-05-ConsApp\CS01-Lesson-04-05-ConsApp.csproj", "{D97B3FA6-EDD0-4DF6-A408-0E12C5265F8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS01-Lesson-04-06-ConsApp", "CS01-Lesson-04-06-ConsApp\CS01-Lesson-04-06-ConsApp.csproj", "{8B279B33-656E-44A8-A9EE-79DC83500118}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D97B3FA6-EDD0-4DF6-A408-0E12C5265F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D97B3FA6-EDD0-4DF6-A408-0E12C5265F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D97B3FA6-EDD0-4DF6-A408-0E12C5265F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B279B33-656E-44A8-A9EE-79DC83500118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B279B33-656E-44A8-A9EE-79DC83500118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B279B33-656E-44A8-A9EE-79DC83500118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B279B33-656E-44A8-A9EE-79DC83500118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

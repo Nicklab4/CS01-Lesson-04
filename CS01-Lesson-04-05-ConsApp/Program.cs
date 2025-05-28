@@ -38,6 +38,11 @@ namespace CS01_Lesson_04_05_ConsApp
                     Console.WriteLine(ex.Message);
                     flag = true;
                 }
+
+                // Блок finally содержит код, выполняемый вне зависимости от того,
+                // вызывается ли исключение в блоке try, например для освобождения
+                // ресурсов, выделенных в блоке try. 
+
                 finally
                 {
                     Console.WriteLine("finally");
