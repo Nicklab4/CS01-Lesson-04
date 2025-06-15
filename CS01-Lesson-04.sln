@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS01-Lesson-04-12-ConsApp",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS01-Lesson-04-13-ConsApp", "CS01-Lesson-04-13-ConsApp\CS01-Lesson-04-13-ConsApp.csproj", "{6FC172BD-39AB-4C04-8BC9-6CD266E58148}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS01-Lesson-04-HW01-ConsApp", "CS01-Lesson-04-HW01-ConsApp\CS01-Lesson-04-HW01-ConsApp.csproj", "{3AAC5388-58AE-4299-84C9-957AF5C81F09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{6FC172BD-39AB-4C04-8BC9-6CD266E58148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FC172BD-39AB-4C04-8BC9-6CD266E58148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FC172BD-39AB-4C04-8BC9-6CD266E58148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAC5388-58AE-4299-84C9-957AF5C81F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAC5388-58AE-4299-84C9-957AF5C81F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAC5388-58AE-4299-84C9-957AF5C81F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAC5388-58AE-4299-84C9-957AF5C81F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
