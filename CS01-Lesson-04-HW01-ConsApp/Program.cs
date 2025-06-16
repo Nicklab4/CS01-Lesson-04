@@ -23,15 +23,17 @@ namespace CS01_Lesson_04_HW01_ConsApp
             //int[] arr = new int[] {6, 2, 9, 3 };
             int count = 0;
 
-            for (int i = 1; i < arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 arr[i] = rnd.Next(-10000, 10001);
+            }
 
+            for (int i = 1; i < arr.Length; i++)
+            {
                 if ((arr[i - 1] % 3 == 0 & arr[i] % 3 != 0) | (arr[i - 1] % 3 != 0 & arr[i] % 3 == 0))
                 {
                     count++;
                 }
-
             }
 
             Console.WriteLine(count);
